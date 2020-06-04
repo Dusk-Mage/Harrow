@@ -1,0 +1,434 @@
+[
+{
+	"Id": 0,
+	"Name": "The Paladin",
+	"Alignment":"Lawful Good",
+	"Suit":"Hammers(Strength)",
+	"Description": "The Paladin symbolizes standing strong in the face of adversity. The Paladin does not back down under any circumstances. This card usually indicates the need to stay the course or do what one knows is right, even if it takes a heavy toll. If the card is misaligned, such a course might be foolhardy.",
+	"Image": ""
+},
+{
+	"Id": 1,
+	"Name": "The Keep",
+	"Alignment":"Neutral Good",
+	"Suit":"Hammers(Strength)",
+	"Description": "The Keep is a symbol of quiet strength, one that can move when necessary, yet stand firm through the greatest hardship. Those represented by The Keep are not shaken by any force. If The Keep appears misaligned, it can mean giving way to temptation or falling in the face of greater strength.",
+	"Image": ""
+},
+{
+	"Id": 2,
+	"Name": "The Big Sky",
+	"Alignment":"Chaotic Good",
+	"Suit":"Hammers(Strength)",
+	"Description": "The Big Sky shows an epic moment as the slaves of a nation are freed. The slaves’ freedom specifies momentous and powerful change, as old shackles are cast off in the light of day. If misaligned, those castoff shackles might be replaced with worse ones.",
+	"Image": ""
+},
+{
+	"Id": 3,
+	"Name": "The Forge",
+	"Alignment":"Lawful Neutral",
+	"Suit":"Hammers(Strength)",
+	"Description": "The Forge evokes strength through great diversity. The blacksmith represents those who can survive the mephits' trial by fire, but The Forge's fire is so strong it burns many to cinders instead. This card often represents a dangerous event that needs many sources of strength to overcome. ",
+	"Image": ""
+},
+{
+	"Id": 4,
+	"Name": "The Bear",
+	"Alignment":"Neutral",
+	"Suit":"Hammers(Strength)",
+	"Description": "The Bear is pure strength. People often make the mistake of thinking The Bear can be tamed or trained. When someone believes he has The Bear under control, that person eventually learns the error of his ways. Brute force might be required here, but the consequences of its use might be severe.",
+	"Image": ""
+},
+{
+	"Id": 5,
+	"Name": "The Uprising",
+	"Alignment":"Chaotic Neutral",
+	"Suit":"Hammers(Strength)",
+	"Description": "The Uprising represents being caught in the clutches of something much more powerful than you. It is an overwhelming strength that often crushes what comes in contact with it. The crown held high signifies an overthrowing of a leader of some sort. In the spread, it indicates a force much stronger than the person receiving the reading.",
+	"Image": ""
+},
+{
+	"Id": 6,
+	"Name": "The Fiend",
+	"Alignment":"Lawful Evil",
+	"Suit":"Hammers(Strength)",
+	"Description": "The Fiend depicts a devil swallowing innocents. It can indicate the deaths of many in a great calamity or, if misaligned, the salvation from the same calamity. The Fiend can also indicate that some sort of dark and intelligent creature is in the area, endangering the populace.",
+	"Image": ""
+},
+{
+	"Id": 7,
+	"Name": "The Beating",
+	"Alignment":"Neutral Evil",
+	"Suit":"Hammers(Strength)",
+	"Description": "The Beating signifies coming under attack from all sides, but it can also indicate the dissolution of the self--mentally. Whether the strength is of the flesh or the mind, it dissolves under the relentless attack. Misaligned, this card suggests that during the assault, undiscovered strength is found.",
+	"Image": ""
+},
+{
+	"Id": 8,
+	"Name": "The Cyclone",
+	"Alignment":"Chaotic Evil",
+	"Suit":"Hammers(Strength)",
+	"Description": "The Cyclone is a force that tears through whatever it meets. This disaster does not come in the course of natural order but is one that comes from the plots of intelligent beings. The Cyclone signifies war, arson, or other plans that destroy everything they touch. Misaligned, this card can indicate renewal after a blustery trial.",
+	"Image": ""
+},
+{
+	"Id": 9,
+	"Name": "The Dance",
+	"Alignment":"Lawful Good",
+	"Suit":"Keys(Dexterity)",
+	"Description": "The Dance is a rich and delicate framework that, like the universe itself, requires everyone within it to abide by its rules, lest the entire construct collapse. It advises staying in perfect step, knowing your place in the greater good. Those who step out of the pattern do so at their peril. Misaligned, that pattern might be hypnotic, but not to the good of all.",
+	"Image": ""
+},
+{
+	"Id": 10,
+	"Name": "The Cricket",
+	"Alignment":"Neutral Good",
+	"Suit":"Keys(Dexterity)",
+	"Description": "The Cricket is a grig, a creature whose mind is as quick as its body. It represents speed and quick passage. Although The Cricket is commonly associated with travel, the peach it sits by represents treasure at the end. If misaligned, the journey will go poorly, and the treasure will be one that is lost rather than found. ",
+	"Image": ""
+},
+{
+	"Id": 11,
+	"Name": "The Juggler",
+	"Alignment":"Chaotic Good",
+	"Suit":"Keys(Dexterity)",
+	"Description": "The Juggler represents fate, the gods, or those who play with the lives and destinies of others. If this titanic Juggler can keep up his rhythm, he will achieve his goals. But in a misaligned placement, he falters, and tragedy and failure are assured for those whose lives he meddled in.",
+	"Image": ""
+},
+{
+	"Id": 12,
+	"Name": "The Locksmith",
+	"Alignment":"Lawful Neutral",
+	"Suit":"Keys(Dexterity)",
+	"Description": "The Locksmith presents the subject with the keys she needs to unlock her destiny. He grants the tools to access a new location, clue, or treasure. He does not grant insight into how or where to use the tools granted. This card often represents a strange, ancient, or magical object.",
+	"Image": ""
+},
+{
+	"Id": 13,
+	"Name": "The Peacock",
+	"Alignment":"Neutral",
+	"Suit":"Keys(Dexterity)",
+	"Description": "The Peacock is a creature of astonishing beauty, but it is a beauty that can only be retained if frozen like a cockatrice's statues. Smarter people accept the passage of time and dance out of The Peacock's way. Its appearance always signifies a sudden personal shift in attitude or societal change.",
+	"Image": ""
+},
+{
+	"Id": 14,
+	"Name": "The Rabbit Prince",
+	"Alignment":"Chaotic Neutral",
+	"Suit":"Keys(Dexterity)",
+	"Description": "The Rabbit Prince is a quirky fellow who represents the vagaries of hand-to-hand combat. The Prince is battle personified and nothing if not capricious. As his broken sword symbolizes, any combatant can fall in battle, no matter how brave or skilled. This card sometimes stands for younger members of royalty or other powerful households.",
+	"Image": ""
+},
+{
+	"Id": 15,
+	"Name": "The Avalanche",
+	"Alignment":"Lawful Evil",
+	"Suit":"Keys(Dexterity)",
+	"Description": "The Avalanche is disaster. It is an unthinking, unreasoning thing that overruns all who get in its way. It can represent physical disaster or the disaster that comes from a panicked crowd or other unthinking group or entity. If misaligned, the calamity is likely to be averted, though not without consequence.",
+	"Image": ""
+},
+{
+	"Id": 16,
+	"Name": "The Crows",
+	"Alignment":"Neutral Evil",
+	"Suit":"Keys(Dexterity)",
+	"Description": "The Crows are a dangerous bunch who indicate violent taking of that which is loved. When The Crows appear, murder, theft, or other shocking loss occurs. If misaligned, such acts can be averted or the thievery is a just one.",
+	"Image": ""
+},
+{
+	"Id": 17,
+	"Name": "The Demon's Lantern",
+	"Alignment":"Chaotic Evil",
+	"Suit":"Keys(Dexterity)",
+	"Description": "The Demon's Lantern is the card of traps and tricks, sleight of hand and sleight of mind. These will-o'wisps and the man who sought their light represent an impossible or intractable situation. Misaligned, it represents an opportunity or a guide arriving at a perfect moment to show the way.",
+	"Image": ""
+},
+{
+	"Id": 18,
+	"Name": "The Trumpet",
+	"Alignment":"Lawful Good",
+	"Suit":"Shields(Constitution)",
+	"Description": "The Trumpet is a declaration of power. This archon is an aggressive force who wades into the direst situations without hesitation in the cause of right. Misaligned, it suggests the motives aren't noble, bringing injury and crumbling strength. It is a card that grants all or nothing at all.",
+	"Image": ""
+},
+{
+	"Id": 19,
+	"Name": "The Survivor",
+	"Alignment":"Neutral Good",
+	"Suit":"Shields(Constitution)",
+	"Description": "The Survivor represents a person who has been through an ordeal of some kind. Surrounded by his fallen comrades, the man represents someone or something thought lost forever, but found once more. It can also represent rebirth. Misaligned, The Survivor can evoke terrible news or a profound loss.",
+	"Image": ""
+},
+{
+	"Id": 20,
+	"Name": "The Desert",
+	"Alignment":"Chaotic Good",
+	"Suit":"Shields(Constitution)",
+	"Description": "The Desert is an environment so bleak that none can survive it without aid. For those who find that aid, the journey across the wastes can lead to great things. Misaligned, it implies the subject cannot rely on the help of others and will assuredly be lost. The sphinx on this card can refer to a mystic or doctor bringing salvation in times of plague or illness.",
+	"Image": ""
+},
+{
+	"Id": 21,
+	"Name": "The Brass Dwarf",
+	"Alignment":"Lawful Neutral",
+	"Suit":"Shields(Constitution)",
+	"Description": "The Brass Dwarf shows an azer who represents invulnerability to a current danger. Although others might fall, he remains hale and strong. The Brass Dwarf can also mean a failure or dark fate for one, which in turn might save all others around him from a greater danger.",
+	"Image": ""
+},
+{
+	"Id": 22,
+	"Name": "The Teamster",
+	"Alignment":"Neutral",
+	"Suit":"Shields(Constitution)",
+	"Description": "The Teamster is a driving external force that keeps the subject going, no matter what. This force can be physical or mental, as a person who exhorts others to continue on when they have no more strength to give. The force can be for good or ill but cannot be ignored. The half-orc depicted is leading a life of constant toil, but for his own betterment.",
+	"Image": ""
+},
+{
+	"Id": 23,
+	"Name": "The Mountain Man",
+	"Alignment":"Chaotic Neutral",
+	"Suit":"Shields(Constitution)",
+	"Description": "The Mountain Man signifies an encounter with a physical power outside of one's control. The giant could personify an authority, an army, an earthquake, or even a desperately needed rainstorm in a parched land. Acceding to the force might be wise, but surviving it is paramount.",
+	"Image": ""
+},
+{
+	"Id": 24,
+	"Name": "The Tangled Briar",
+	"Alignment":"Lawful Evil",
+	"Suit":"Shields(Constitution)",
+	"Description": "The Tangled Briar is a card of ancient deeds. It indicates an object or person from long ago that will somehow have great influence on the situation. The object or person in question is one lost or murdered in some foul way. Misaligned, the thorny past brings not just pain, but hope for the future.",
+	"Image": ""
+},
+{
+	"Id": 25,
+	"Name": "The Sickness",
+	"Alignment":"Neutral Evil",
+	"Suit":"Shields(Constitution)",
+	"Description": "The Sickness represents plague, pestilence, famine, and disease. It can also indicate corruption of the soul or of a multitude of souls. If misaligned, The Sickness represents either great health or a chance to stop such a disaster.",
+	"Image": ""
+},
+{
+	"Id": 26,
+	"Name": "The Waxworks",
+	"Alignment":"Chaotic Evil",
+	"Suit":"Shields(Constitution)",
+	"Description": "The Waxworks is a place of helplessness and physical entropy. The mind might be willing, but the flesh is frozen in this place of horror. It is also the card of torture and imprisonment, signifying literal inability to move or a paralysis of a more prosaic kind. Misaligned, this card indicates an abundance of energy at a crucial moment that changes all.",
+	"Image": ""
+},
+{
+	"Id": 27,
+	"Name": "The Hidden Truth",
+	"Alignment":"Lawful Good",
+	"Suit":"Books(Intelligence)",
+	"Description": "The Hidden Truth symbolizes the ability to see past the obvious and the banal to a greater truth within. Sometimes this discovery is an esoteric one, sometimes it is a literal find, such as an item revealed within a room. Regardless, it is a card with the power to reveal secrets. Misaligned, it can mean a secret being revealed to the subject's detriment.",
+	"Image": ""
+},
+{
+	"Id": 28,
+	"Name": "The Wanderer",
+	"Alignment":"Neutral Good",
+	"Suit":"Books(Intelligence)",
+	"Description": "The Wanderer is a collector. This centaur appreciates that which others regard as junk or trash. The Wanderer appears to those clever enough to find the true worth in something others ignore or treat as worthless. Misaligned, The Wanderer signifies a loss of values, or the inability to see what is truly valuable in a person or situation.",
+	"Image": ""
+},
+{
+	"Id": 29,
+	"Name": "he Joke",
+	"Alignment":"Chaotic Good",
+	"Suit":"Books(Intelligence)",
+	"Description": "The Joke shows a terror that must be overcome--but not by physical means. This monster can only be defeated by trickery or artifice. This card can represent the value of humor in finding the way past a difficult person or task. When misaligned, it often signals that the joke will be on you.",
+	"Image": ""
+},
+{
+	"Id": 30,
+	"Name": "The Inquisitor",
+	"Alignment":"Lawful Neutral",
+	"Suit":"Books(Intelligence)",
+	"Description": "The Inquisitor accepts nothing save the truth. He represents immutable reality, that which cannot be fooled or swayed in any way. To attempt to go against this unchangeable object, person, or idea is to court disaster.",
+	"Image": ""
+},
+{
+	"Id": 31,
+	"Name": "The Foreign Trader",
+	"Alignment":"Neutral",
+	"Suit":"Books(Intelligence)",
+	"Description": "The Foreign Trader is the card of spies and peddlers alike. Any who trade in information are subject to this card's influence. A bargain made under this card's auspice always concludes true, but the ramifications of the pact might be shocking for those who do not understand its implications.",
+	"Image": ""
+},
+{
+	"Id": 32,
+	"Name": "The Vision",
+	"Alignment":"Chaotic Neutral",
+	"Suit":"Books(Intelligence)",
+	"Description": "The Vision represents arcane knowledge. Such knowledge can take the form of madness or cryptic words. This card often means an encounter with a crazy person, but it can also signify a brush with genius.",
+	"Image": ""
+},
+{
+	"Id": 33,
+	"Name": "The Rakshasa",
+	"Alignment":"Lawful Evil",
+	"Suit":"Books(Intelligence)",
+	"Description": "The Rakshasa is the card of dominance and mind control. The creature sitting serenely upon the back of the slave indicates an exterior force imposing itself upon another being's mind. On occasion, the slavery is literal, but more often it is mental enslavement to a force or idea. Misaligned, that enslavement can be cast off in the face of new information.",
+	"Image": ""
+},
+{
+	"Id": 34,
+	"Name": "The Idiot",
+	"Alignment":"Neutral Evil",
+	"Suit":"Books(Intelligence)",
+	"Description": "The Idiot is a card of grave foolishness and greed. It can mean bribery, blackmail, or naivety so grand it can see no evil. The goblins have captured a foolhardy man, representing the knowledge that loss of dignity can precede loss of life. Misaligned, this card might indicate feigning of idiocy to disguise one's gifts.",
+	"Image": ""
+},
+{
+	"Id": 35,
+	"Name": "The Snakebite",
+	"Alignment":"Chaotic Evil",
+	"Suit":"Books(Intelligence)",
+	"Description": "The Snakebite is a vile, poisoned weapon. Poison takes many forms--not all of them physical. The poison on the assassin's blade represents the death of ideas and freedom, as well as the ability to turn friends against each other or poison the minds of the virtuous. Misaligned, this card can mean a mental leap, a new friendship, or a discovery.",
+	"Image": ""
+},
+{
+	"Id": 36,
+	"Name": "The Winged Serpent",
+	"Alignment":"Lawful Good",
+	"Suit":"Stars(Wisdom)",
+	"Description": "The Winged Serpent is a powerful being. Knowledge and prudence are separate keeps bridged by understanding. The couatl represents this bridge, knowing whether now is the time to strike. Misaligned, this card means either not seizing a moment or doing so ill-advisedly. ",
+	"Image": ""
+},
+{
+	"Id": 37,
+	"Name": "The Midwife",
+	"Alignment":"Neutral Good",
+	"Suit":"Stars(Wisdom)",
+	"Description": "The Midwife is a conduit to creation, although she does not create on her own. This halfling is a key that lets new life or information into the world. Her heart can see the good in even the worst situation. She can see the import of any new arrival, but if the card is misaligned, the new arrival will likely not inspire much joy.",
+	"Image": ""
+},
+{
+	"Id": 38,
+	"Name": "he Publican",
+	"Alignment":"Chaotic Good",
+	"Suit":"Stars(Wisdom)",
+	"Description": "The Publican represents fellowship and camaraderie, and a place of refuge for those in need. Most would find the cyclops inconsequential, but he has insights relevant to the reading or a quest. Misaligned, The Publican represents refuge unfound or false information given at a crucial moment.",
+	"Image": ""
+},
+{
+	"Id": 39,
+	"Name": "The Queen Mother",
+	"Alignment":"Lawful Neutral",
+	"Suit":"Stars(Wisdom)",
+	"Description": "The Queen Mother is knowledge personified. The formian knows all but does not reveal anything to anyone who does not show her proper worship. She is fond of the powerless and the underclasses, for they serve her when the more powerful refuse. She represents the need to become part of a society, or to bow before those who know more than you.",
+	"Image": ""
+},
+{
+	"Id": 40,
+	"Name": "The Owl",
+	"Alignment":"Neutral",
+	"Suit":"Stars(Wisdom)",
+	"Description": "The Owl represents the eternal wisdom of the natural order. It is the harsh realism that causes a pack of wolves to cull the weak in the herd. It is tragic for the culled deer, but through such actions the herd grows stronger. The needle The Owl holds binds life together, but just as easily can pick that life apart.",
+	"Image": ""
+},
+{
+	"Id": 41,
+	"Name": "The Carnival",
+	"Alignment":"Chaotic Neutral",
+	"Suit":"Stars(Wisdom)",
+	"Description": "The Carnival is the card of illusions and false dreams. This card can heighten the power of the arcane, but depending on such whimsical forces can be risky. For others, this card depicts imprudent plans or unrealistic ambitions.",
+	"Image": ""
+},
+{
+	"Id": 42,
+	"Name": "The Eclipse",
+	"Alignment":"Lawful Evil",
+	"Suit":"Stars(Wisdom)",
+	"Description": "The Eclipse represents self-doubt and loss of purpose. This card afflicts those with faith in the divine, as their talents can wane under this stress. It can also indicate a loss of way along a path. If misaligned, it can augur an unheralded ability coming to the fore or a concealed location revealed.",
+	"Image": ""
+},
+{
+	"Id": 43,
+	"Name": "The Mute Hag",
+	"Alignment":"Neutral Evil",
+	"Suit":"Stars(Wisdom)",
+	"Description": "The Mute Hag might be silent, but the eye she holds lets her see into the hearts of men. This hag invokes blood pacts and poisonous secrets, the kind that turn brother against brother and son against father. It is a card that performers loathe, as it leaves them stumbling over their words and songs. Misaligned, it indicates unshakable loyalty and lucidity of speech.",
+	"Image": ""
+},
+{
+	"Id": 44,
+	"Name": "The Lost",
+	"Alignment":"Chaotic Evil",
+	"Suit":"Stars(Wisdom)",
+	"Description": "The Lost is the card of emptiness and loss of identity. The bodak shown is forever mad, lost in a world of lunatics, insane asylums, and mass killers. For those under its influence, the world makes no sense. It evokes times where all is babble, as when meeting someone who speaks only in another tongue. Misaligned, it can indicate clarity of mind under duress.",
+	"Image": ""
+},
+{
+	"Id": 45,
+	"Name": "The Empty Throne",
+	"Alignment":"Lawful Good",
+	"Suit":"Crowns(Charisma)",
+	"Description": "The Empty Throne has a sense of loss that is palpable. The ghost signifies that those who are gone will always be with us. They taught us important lessons, if only we choose to listen. This card can bring information from a far-off or ancient source. If misaligned, the ghosts of the past are restless, and might require effort to set at peace.",
+	"Image": ""
+},
+{
+	"Id": 46,
+	"Name": "The Theater",
+	"Alignment":"Neutral Good",
+	"Suit":"Crowns(Charisma)",
+	"Description": "The Theater is the card of true prophecy. The puppets act out a scene, just as the prophet acts out a scene in which she has no part. The prophet is the audience and the prophecy is the show. She has no influence on what she sees, and its importance is often not recognized until too late. If misaligned, the prophecy is just for show.",
+	"Image": ""
+},
+{
+	"Id": 47,
+	"Name": "The Unicorn",
+	"Alignment":"Chaotic Good",
+	"Suit":"Crowns(Charisma)",
+	"Description": "The Unicorn is a card that generously offers that which the subject seeks, just as the charger in the picture offers up its fruit. When misaligned, the card means betrayal, poisoning, or a false friend.",
+	"Image": ""
+},
+{
+	"Id": 48,
+	"Name": "The Marriage",
+	"Alignment":"Lawful Neutral",
+	"Suit":"Crowns(Charisma)",
+	"Description": "The Marriage can be a union of people, Ideas, kingdoms, or other distinct things. The progeny of the salamander and water weird shows that a union might bring forth new power from both parties, or it might be a ruinous joining of that which should never have been united. Once wedded, the two cannot be parted. This is the card of permanent change.",
+	"Image": ""
+},
+{
+	"Id": 49,
+	"Name": "The Twin",
+	"Alignment":"Neutral",
+	"Suit":"Crowns(Charisma)",
+	"Description": "The Twin signals duality of purpose or Identity. This doppelganger can also mean indecision, as a person or group wavers between very different options. It can also mean divided loyalties abound. The card makes a harrower wary, as it can also mean the entire spread has a hidden or reversed meaning.",
+	"Image": ""
+},
+{
+	"Id": 50,
+	"Name": "The Courtesan",
+	"Alignment":"Chaotic Neutral",
+	"Suit":"Crowns(Charisma)",
+	"Description": "The Courtesan is the card of political intrigue. Her mask embodies the social niceties that must be followed. If it slips, negotiations can take an unexpected turn. The card can also indicate a woman of power who shapes events. How she is treated decides the outcome of the situation.",
+	"Image": ""
+},
+{
+	"Id": 51,
+	"Name": "The Tyrant",
+	"Alignment":"Lawful Evil",
+	"Suit":"Crowns(Charisma)",
+	"Description": "The Tyrant indicates a ruler who is a blight upon those ruled. The dragon might indicate a monarch, overseer, or head of a household. Whoever this person is, he does harm to those over whom he holds sway, whether he realizes it or not. Misaligned, it might show a tyrant revealed or dethroned.",
+	"Image": ""
+},
+{
+	"Id": 52,
+	"Name": "The Betrayal",
+	"Alignment":"Neutral Evil",
+	"Suit":"Crowns(Charisma)",
+	"Description": "The Betrayal is selfishness incarnate. Envy twists the spirit and leads ultimately to devastation. It can also indicate a person whose loveliness hides an evil heart. Misaligned, the card means self-sacrifice or turning away from the material world and its temptations.",
+	"Image": ""
+},
+{
+	"Id": 53,
+	"Name": "he Liar",
+	"Alignment":"Chaotic Evil",
+	"Suit":"Crowns(Charisma)",
+	"Description": "The Liar is love at its most treacherous. This is not the love that moves mountains, this is the love that rips the heart in two and causes lovers to leap to their deaths. This lamia can mean obsession, unrequited passion, or doomed love. Misaligned, the card can indicate a new relationship beginning, although disguised as something much less beautiful.",
+	"Image": ""
+}
+]
