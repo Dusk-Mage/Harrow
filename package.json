@@ -1,0 +1,19 @@
+{
+  "name": "harrowing",
+  "version": "1.0.0",
+  "description": "Pathfinder Harrow Card utility site, an excuse for me to learn React and Next.Js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EarthenForger/Harrow.git"
+  },
+  "author": "Charles Dulmage",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EarthenForger/Harrow/issues"
+  },
+  "homepage": "https://github.com/EarthenForger/Harrow#readme"
+}
