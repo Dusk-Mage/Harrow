@@ -1,0 +1,307 @@
+PDF FILE INFORMATION:
+************************************************************************
+Tagged:         yes
+Pages:          96
+Encrypted:      no
+Page size:      324 x 266.4 pts
+File size:      11080873 bytes
+Optimized:      no
+PDF version:    1.6
+
+
+
+PDF CONTENT:
+************************************************************************
+TM
+
+TM
+
+Harrow
+Deck Design: Mike Selinker with Kyle Hunter Divination Design: Teeuwynn Woodruff Towers Design: Jason Bulmahn and Mike Selinker Art and Card Concepts: Kyle Hunter Concept: James Jacobs, F. Wesley Schneider, and James Sutter Art Director & Graphic Design: James Davis Editors: Mike McArtor and Vic Wertz Vice President of Operations: Jeff Alvarez Director of Marketing & Sales: Joshua Frost Paizo CEO: Lisa Stevens Corporate Accountant: Dave Erickson Staff Accountant: Chris Self Technical Director: Vic Wertz Publisher: Erik Mona Special Thanks: Wolfgang Baur, James Ernest, Dan Katz, Scott Kim, Ann Kuykendall, Nicolas Logue, Tanis O'Connor, John Rateliff, Anne and Sigfried Trent, Jeremy Walker, and the rest of the Paizo staff.
+Harrow can be used in Pathfinder's Curse of the Crimson Throne Adventure Path. � 2008 Paizo Publishing, LLC. Paizo Publishing and the Paizo golem logo are registered trademarks and Harrow, Pathfinder, Pathfinder Chronicles, and GameMastery are trademarks of Paizo Publishing, LLC. All Rights Reserved. PZO9200 Printed in China
+
+You think they're just cards? Just pictures and words good for gambling or faking townsfolk out of a few coppers? Go on and think that--I don't mind. My cards know where you've been and where you're going. And it's not pretty. Not at all. So, walk away. Or stop and learn to turn the few remaining pages of the story of your life into a novel worth the telling. Or don't. After all, they're only cards.
+--Riana, Varisian harrower
+
+THe Harrow deck
+Harrow is a tarot-like deck usable in everyday life or in any roleplaying game. Regardless of where you use it, use it with care. A Harrow deck is loaded with power, so you must learn to read the cards correctly or else suffer an ignominious fate. In these pages, you will learn to perform a harrowing, which is a reading of the cards in such a way that you wrest information out of someone's life. It's a difficult process for your subject, as his entire past, present, and future is laid bare. Sometimes, the deck talks of good tidings, sometimes of ill. Rarely is it wrong. The most important thing is to treat your Harrow deck with respect. Disrespect the deck, and the deck will disrespect you. That way surely lies ruin. You don't want ruin. You want to know how to read these cards.
+1
+
+reading a Harrow card
+A Harrow deck contains 54 cards. Each card has one of six symbols corresponding to six abilities, and the symbol is located in one of nine positions corresponding to nine alignments. The Paladin, for example, has a hammer (the symbol for Strength) in the upper left corner (the position for lawful good), so it's the lawful good Strength card. Similarly, The Liar has a crown (Charisma) in the lower right corner (chaotic evil), so it's the chaotic evil Charisma card.
+
+Symbols of the Six abilities
+Strength (hammer) Dexterity (key) Constitution (shield) Intelligence (book) Wisdom (star) Charisma (crown)
+
+Positions of the nine alignments
+Lawful Good Lawful Neutral Lawful Evil Neutral Good Neutral Neutral Evil Chaotic Good Chaotic Neutral Chaotic Evil
+
+2
+
+Many people claim to know how to read the ancient cards, but most of them are just out to fleece a few townies. Others waste their time gambling with the cards. A select few actually know the art of reading the Harrow deck. And for those who do have the knack, the Harrow deck can reveal crucial threads in the tapestry of anyone's life--past, present, and future.
+--Riana, Varisian harrower
+
+Performing a Harrowing
+The following is a brief primer on how to become a harrower--one who knows how to read the Harrow deck. This merely scratches the surface of the deck, but it is enough to glean important information about yourself and those you encounter. Before you conduct a reading, set the stage for a dramatic encounter. Clear the table, and place the deck in front of you. The reading is conducted in two parts: first you'll perform the choosing, and then you'll perform the spread.
+
+The Choosing
+Ask your subjects--those who come to you for a reading--what they seek.
+3
+
+Phrase the request in the form of a single question, then decide which of the six abilities best suits that question. For example, a question of health might indicate the Constitution cards, while a question regarding love might indicate the Charisma cards. Ultimately, it is up to you to choose which ability most fits.
+
+abilities and Some corresponding Topics
+Strength: War, Battle, Honor Dexterity: Trouble, Children, Entertainment Constitution: Health, Home, Pain Intelligence: Money, School, Literature Wisdom: Ancient History, Morality, The Gods Charisma: Love, Family, Politics
+Remove the nine cards of the ability you have chosen from the Harrow deck and shuffle those nine. Spread the cards you chose face down in front of you. Have your subjects each pick one card. The chosen card has a message for that person about his current place in the world and in relation to the question at hand. Using the descriptions on pages 12�23, interpret each card to define that subject's role for the upcoming series of events. If this card should appear in the spread that follows, it applies most strongly to the person who chose that role and should be interpreted accordingly.
+4
+
+The spread
+Once each person knows his role, shuffle all the cards together (including those just chosen) and then lay out a spread face down. The spread is laid out in a three-by-three grid of nine cards. When interpreting the cards, each one's placement in the spread determines whether it relates to the past, present, or future. The placement also tells the harrower if the card should be interpreted in a positive, unclear, or negative light. This table shows the placements and their alignments and meanings:
+
+Lawful Good Neutral Evil positive past unclear past negative past
+
+Neutral positive present unclear present
+
+Chaotic positive future unclear future
+
+negative present negative future
+
+Any cards in the top (good) row are interpreted in a positive light, while cards in the middle (neutral) row are unclear, and cards in the bottom (evil) row are interpreted negatively. Likewise, the lawful column represents the past, the neutral column denotes the present, and the chaotic column signifies the future. For example, a card in the upper left placement refers to something in the past that was positive. A card in the lower middle placement indicates something negative in the present.
+
+5
+
+reading The Cards
+Turn over and read the cards one column at a time. Each column relates to a different period in the subjects' lives. The Past: The left column refers to past actions or events that affect the current situation. Your subjects might think they know what happened in the past, but what they know can change. The Present: The middle column refers to actions or events that might happen now or in the very near future that affect the current situation. The Future: The right column refers to actions or events in the future that might happen to the subjects. The future can change, of course, but the results can give insight into what might be. Turn all of the cards in the past column face up first. Examine the cards according to the rules below, selecting one or more cards to interpret. After you finish with the past, turn the cards over in the present column. When you finish with the present, go on to the column representing the future. Select the cards to interpret in each column by looking for role cards and cards that relate to their placement in one of three ways, called matches. Role Cards: Whenever a role card that was chosen by one of the subjects appears in a spread, it must be interpreted, because it is of great import to that subject. True Matches: A true match occurs whenever a card appears in its "correct" placement in the spread (that is, in the placement corresponding to the position of its alignment symbol on the
+6
+
+card). For example, if the lawful good card The Paladin is in the upper left corner of the spread, that's a true match. Opposite Matches: An opposite match occurs when a card appears in the placement diametrically opposed to its alignment. Thus, if The Juggler (chaotic good) appears in the lower left placement (lawful evil), that's an opposite match. Partial Matches: A partial match occurs if a card matches only the correct row or column, but not both. So if The Cricket (neutral good), is found in the upper right placement (chaotic good), it is a partial match (matching good only). Selecting Cards to Interpret: You can interpret any number of cards in a column, but you must interpret at least one per column. All role cards, true matches, and opposite matches are always interpreted. If none of those appear in the column, look for a partial match. If that doesn't appear, then choose any one card in the column. Cards in Misaligned Placements: If a good card, such as The Trumpet, appears in the bottom row, you should interpret it in its most negative light (see card descriptions for more details). Likewise, if an evil card, such as The Beating, appears in the top row, it should be given a positive interpretation. These cards are considered misaligned. (Cards which are neither good nor evil are never misaligned.) When cards appear in the middle row, interpret them normally, unless the context of the reading suggests you should treat them as misaligned.
+7
+
+USing THe Harrow deck in YoUr advenTUreS
+You can perform a harrowing in any adventure. To do so, you need a Harrowing Chronicle, the record card that comes with the deck. To run a harrowing in your adventure:  �Decidewhichofthesixabilitiesmostsuitsthethemeofthe adventure. Select the nine cards with that ability.  �Conductachoosing.Haveeachplayerdrawarolecardfrom the nine cards. Record the character names and their role cards on the back of a Harrowing Chronicle, as shown on the sample Chronicle card. Make notes of several events in the adventure where a player's role card suggests an appropriate effect.  �Shuffleallofthecardsandconductaspread.Usethefront of the Harrowing Chronicle to record the cards you drew. When a card of import (a role card or a match) appears, select an encounter in which it will be meaningful, and write this on the Chronicle. Note if true (T), partial (P), or opposite (O) matches occur. You don't need to record an encounter for every card. When you begin one of the chosen encounters, apply the effects of that encounter's card to the encounter. You can download extra Harrowing Chronicles at paizo.com. A Sample Adventure: Take a look at the filled-in sample Chronicle card. The GM is running an adventure in which his players are defending a castle from orcish invaders. On the back of the Chronicle, the GM noted that Harsk's player drew The Keep,
+8
+
+and the GM decided that Harsk gains an advantage when defending the walls of the castle. While conducting the spread, The Avalanche appeared in the lower left corner (a true match), so the GM has decided that card will affect an upcoming battle at a drawbridge-- he notes to himself that the bridge will collapse while the characters are defending it. The Forge, Seelah's role, is an opposite match, so something big awaits Seelah at an armory the PCs will visit.
+
+The harrowing spell
+If a character uses a Harrow deck, she may cast a spell to influence events. This spell requires the GM to do some interpretation.
+
+Harrowing
+School divination; Level Brd 3, Wiz/Sor 3
+CaStING
+
+Casting time 10 minutes Components V, S, F
+EffECt
+
+Range personal target one to nine creatures Duration 1 day/level or until fulfilled
+DESCRIptIoN
+
+You use a Harrow deck to tell a fortune for yourself or someone else. A harrowing must describe one set of events or course of action (for example, "hunting down the pirate king"). You perform 9
+
+a choosing for each of the subjects, and then a spread for the course of action. The nine cards in the spread represent events or factors from the past, present, and future. Record the cards on the Chronicle, and your GM secretly chooses encounters where those results matter. If the card is a match of any sort (true, partial, or opposite), record it. A partial match gives you a +1 bonus per 5 caster levels on attack rolls, saving throws, skill checks, and ability checks modified by the card's related ability in that encounter (for example, a Strength card would grant a bonus on attack rolls, Strength-based skill checks, and Strength checks). A true match gives you a +2 bonus per 5 caster levels. An opposite match gives you a �2 penalty per 5 caster levels. If your role card is in the spread, double that effect. The GM may introduce other modifiers or effects based on the placements in the spread.
+
+reading the cards for evil characters
+When doing readings for evil folks, you might want to do a "reverse reading." In this type of reading, you interpret negative cards as being bad for the evil character's foes, and positive cards as positive for the character's foes. You may do a normal reading instead, if you so choose.
+
+10
+
+The cards are your family--your cousins, sisters, sons, and parents. Never will you feel greater love or more fierce hate than when looking into their souls. Approach each card as a unique individual. No one gives their secrets to someone they don't trust. Be sure the cards trust you.
+--Riana, Varisian harrower
+
+inTerPreTing THe cardS
+Each card has its own basic meaning. These meanings are influenced by circumstances, and giving a true reading of the cards is something only a skilled harrower can accomplish. Even those with only basic knowledge of the Harrow deck, however, can glean some information from it. Cards in a choosing are interpreted by their most basic meaning. However, cards in a spread can have their meaning modified based on their placements in the spread. Good and evil cards have different meanings when they are in misaligned placements (a good card appearing on the bottom row of the spread or an evil card appearing on the top row). Cards which are neither good nor evil are never treated as misaligned, as they don't take a side in the struggle between good and evil. The following pages contain a brief synopsis of the meanings of each card in the Harrow deck.
+
+11
+
+sTrengTh Cards
+The Paladin (lawful good, Strength) symbolizes standing strong in the face of adversity. The Paladin does not back down under any circumstances. This card usually indicates the need to stay the course or do what one knows is right, even if it takes a heavy toll. If the card is misaligned, such a course might be foolhardy. 
+
+The Keep (neutral good, Strength) is a symbol of quiet strength, one that can move when necessary, yet stand firm through the greatest hardship. Those represented by The Keep are not shaken by any force. If The Keep appears misaligned, it can mean giving way to temptation or falling in the face of greater strength. 
+
+The Big Sky (chaotic good, Strength) shows an epic moment as the slaves of a nation are freed. The slaves' freedom specifies momentous and powerful change, as old shackles are cast off in the light of day. If misaligned, those castoff shackles might be replaced with worse ones. 
+
+The Forge (lawful neutral, Strength) evokes strength through great diversity. The blacksmith represents those who can survive the mephits' trial by fire, but The Forge's fire is so strong it burns many to cinders instead. This card often represents a dangerous event that needs many sources of strength to overcome. 
+
+The Bear (neutral, Strength) is pure strength. People often make the mistake of thinking The Bear can be tamed or trained. When someone believes he has The Bear under control, that person eventually learns the error of his ways. Brute force might be required here, but the consequences of its use might be severe.
+12
+
+The Uprising (chaotic neutral, Strength) represents being caught in the clutches of something much more powerful than you. It is an overwhelming strength that often crushes what comes in contact with it. The crown held high signifies an overthrowing of a leader of some sort. In the spread, it indicates a force much stronger than the person receiving the reading. 
+
+The Fiend (lawful evil, Strength) depicts a devil swallowing innocents. It can indicate the deaths of many in a great calamity or, if misaligned, the salvation from the same calamity. The Fiend can also indicate that some sort of dark and intelligent creature is in the area, endangering the populace. 
+
+The Beating (neutral evil, Strength) signifies coming under attack from all sides, but it can also indicate the dissolution of the self--mentally. Whether the strength is of the flesh or the mind, it dissolves under the relentless attack. Misaligned, this card suggests that during the assault, undiscovered strength is found. 
+
+The Cyclone (chaotic evil, Strength) is a force that tears through whatever it meets. This disaster does not come in the course of natural order but is one that comes from the plots of intelligent beings. The Cyclone signifies war, arson, or other plans that destroy everything they touch. Misaligned, this card can indicate renewal after a blustery trial.
+
+13
+
+dexTeriTy Cards
+The Dance (lawful good, Dexterity) is a rich and delicate framework that, like the universe itself, requires everyone within it to abide by its rules, lest the entire construct collapse. It advises staying in perfect step, knowing your place in the greater good. Those who step out of the pattern do so at their peril. Misaligned, that pattern might be hypnotic, but not to the good of all. 
+
+The Cricket (neutral good, Dexterity) is a grig, a creature whose mind is as quick as its body. It represents speed and quick passage. Although The Cricket is commonly associated with travel, the peach it sits by represents treasure at the end. If misaligned, the journey will go poorly, and the treasure will be one that is lost rather than found. 
+
+The Juggler (chaotic good, Dexterity) represents fate, the gods, or those who play with the lives and destinies of others. If this titanic Juggler can keep up his rhythm, he will achieve his goals. But in a misaligned placement, he falters, and tragedy and failure are assured for those whose lives he meddled in. 
+
+The Locksmith (lawful neutral, Dexterity) presents the subject with the keys she needs to unlock her destiny. He grants the tools to access a new location, clue, or treasure. He does not grant insight into how or where to use the tools granted. This card often represents a strange, ancient, or magical object. 
+
+The Peacock (neutral, Dexterity) is a creature of astonishing beauty, but it is a beauty that can only be retained if frozen like a cockatrice's statues. Smarter people accept the passage of time and dance out of The Peacock's way. Its appearance always signifies a sudden personal shift in attitude or societal change. 
+
+The Rabbit Prince (chaotic neutral, Dexterity) is a quirky fellow who represents the vagaries of hand-to-hand combat. The Prince is battle personified and nothing if not capricious. As his broken sword symbolizes, any combatant can fall in battle, no matter how brave or skilled. This card sometimes stands for younger members of royalty or other powerful households. 
+
+The Avalanche (lawful evil, Dexterity) is disaster. It is an unthinking, unreasoning thing that overruns all who get in its way. It can represent physical disaster or the disaster that comes from a panicked crowd or other unthinking group or entity. If misaligned, the calamity is likely to be averted, though not without consequence. 
+
+The Crows (neutral evil, Dexterity) are a dangerous bunch who indicate violent taking of that which is loved. When The Crows appear, murder, theft, or other shocking loss occurs. If misaligned, such acts can be averted or the thievery is a just one. 
+
+The Demon's Lantern (chaotic evil, Dexterity) is the card of traps and tricks, sleight of hand and sleight of mind. These will-o'wisps and the man who sought their light represent an impossible or intractable situation. Misaligned, it represents an opportunity or a guide arriving at a perfect moment to show the way.
+
+15
+
+ConsTiTuTion Cards
+The Trumpet (lawful good, Constitution) is a declaration of power. This archon is an aggressive force who wades into the direst situations without hesitation in the cause of right. Misaligned, it suggests the motives aren't noble, bringing injury and crumbling strength. It is a card that grants all or nothing at all. 
+
+The Survivor (neutral good, Constitution) represents a person who has been through an ordeal of some kind. Surrounded by his fallen comrades, the man represents someone or something thought lost forever, but found once more. It can also represent rebirth. Misaligned, The Survivor can evoke terrible news or a profound loss. 
+
+The Desert (chaotic good, Constitution) is an environment so bleak that none can survive it without aid. For those who find that aid, the journey across the wastes can lead to great things. Misaligned, it implies the subject cannot rely on the help of others and will assuredly be lost. The sphinx on this card can refer to a mystic or doctor bringing salvation in times of plague or illness. 
+
+The Brass Dwarf (lawful neutral, Constitution) shows an azer who represents invulnerability to a current danger. Although others might fall, he remains hale and strong. The Brass Dwarf can also mean a failure or dark fate for one, which in turn might save all others around him from a greater danger. 
+
+The Teamster (neutral, Constitution) is a driving external force that keeps the subject going, no matter what. This force can be physical or mental, as a person who exhorts others to continue on when they have no more strength to give. The force can be for good or ill but cannot be ignored. The half-orc depicted is leading a life of constant toil, but for his own betterment. 
+
+The Mountain Man (chaotic neutral, Constitution) signifies an encounter with a physical power outside of one's control. The giant could personify an authority, an army, an earthquake, or even a desperately needed rainstorm in a parched land. Acceding to the force might be wise, but surviving it is paramount. 
+
+The Tangled Briar (lawful evil, Constitution) is a card of ancient deeds. It indicates an object or person from long ago that will somehow have great influence on the situation. The object or person in question is one lost or murdered in some foul way. Misaligned, the thorny past brings not just pain, but hope for the future. 
+
+The Sickness (neutral evil, Constitution) represents plague, pestilence, famine, and disease. It can also indicate corruption of the soul or of a multitude of souls. If misaligned, The Sickness represents either great health or a chance to stop such a disaster. 
+
+The Waxworks (chaotic evil, Constitution) is a place of helplessness and physical entropy. The mind might be willing, but the flesh is frozen in this place of horror. It is also the card of torture and imprisonment, signifying literal inability to move or a paralysis of a more prosaic kind. Misaligned, this card indicates an abundance of energy at a crucial moment that changes all.
+
+17
+
+inTelligenCe Cards
+The Hidden Truth (lawful good, Intelligence) symbolizes the ability to see past the obvious and the banal to a greater truth within. Sometimes this discovery is an esoteric one, sometimes it is a literal find, such as an item revealed within a room. Regardless, it is a card with the power to reveal secrets. Misaligned, it can mean a secret being revealed to the subject's detriment. 
+
+The Wanderer (neutral good, Intelligence) is a collector. This centaur appreciates that which others regard as junk or trash. The Wanderer appears to those clever enough to find the true worth in something others ignore or treat as worthless. Misaligned, The Wanderer signifies a loss of values, or the inability to see what is truly valuable in a person or situation. 
+
+The Joke (chaotic good, Intelligence) shows a terror that must be overcome--but not by physical means. This monster can only be defeated by trickery or artifice. This card can represent the value of humor in finding the way past a difficult person or task. When misaligned, it often signals that the joke will be on you. 
+
+The Inquisitor (lawful neutral, Intelligence) accepts nothing save the truth. He represents immutable reality, that which cannot be fooled or swayed in any way. To attempt to go against this unchangeable object, person, or idea is to court disaster. 
+
+The Foreign Trader (neutral, Intelligence) is the card of spies and peddlers alike. Any who trade in information are subject to this card's influence. A bargain made under this card's auspice always concludes true, but the ramifications of the pact might be shocking for those who do not understand its implications. 
+
+The Vision (chaotic neutral, Intelligence) represents arcane knowledge. Such knowledge can take the form of madness or cryptic words. This card often means an encounter with a crazy person, but it can also signify a brush with genius. 
+
+The Rakshasa (lawful evil, Intelligence) is the card of dominance and mind control. The creature sitting serenely upon the back of the slave indicates an exterior force imposing itself upon another being's mind. On occasion, the slavery is literal, but more often it is mental enslavement to a force or idea. Misaligned, that enslavement can be cast off in the face of new information. 
+
+The Idiot (neutral evil, Intelligence) is a card of grave foolishness and greed. It can mean bribery, blackmail, or naivety so grand it can see no evil. The goblins have captured a foolhardy man, representing the knowledge that loss of dignity can precede loss of life. Misaligned, this card might indicate feigning of idiocy to disguise one's gifts. 
+
+The Snakebite (chaotic evil, Intelligence) is a vile, poisoned weapon. Poison takes many forms--not all of them physical. The poison on the assassin's blade represents the death of ideas and freedom, as well as the ability to turn friends against each other or poison the minds of the virtuous. Misaligned, this card can mean a mental leap, a new friendship, or a discovery.
+
+19
+
+wisdom Cards
+The Winged Serpent (lawful good, Wisdom) is a powerful being. Knowledge and prudence are separate keeps bridged by understanding. The couatl represents this bridge, knowing whether now is the time to strike. Misaligned, this card means either not seizing a moment or doing so ill-advisedly. 
+
+The Midwife (neutral good, Wisdom) is a conduit to creation, although she does not create on her own. This halfling is a key that lets new life or information into the world. Her heart can see the good in even the worst situation. She can see the import of any new arrival, but if the card is misaligned, the new arrival will likely not inspire much joy. 
+
+The Publican (chaotic good, Wisdom) represents fellowship and camaraderie, and a place of refuge for those in need. Most would find the cyclops inconsequential, but he has insights relevant to the reading or a quest. Misaligned, The Publican represents refuge unfound or false information given at a crucial moment. 
+
+The Queen Mother (lawful neutral, Wisdom) is knowledge personified. The formian knows all but does not reveal anything to anyone who does not show her proper worship. She is fond of the powerless and the underclasses, for they serve her when the more powerful refuse. She represents the need to become part of a society, or to bow before those who know more than you. 
+
+The Owl (neutral, Wisdom) represents the eternal wisdom of the natural order. It is the harsh realism that causes a pack of wolves to cull the weak in the herd. It is tragic for the culled deer, but through such actions the herd grows stronger. The needle The Owl holds binds life together, but just as easily can pick that life apart. 
+
+The Carnival (chaotic neutral, Wisdom) is the card of illusions and false dreams. This card can heighten the power of the arcane, but depending on such whimsical forces can be risky. For others, this card depicts imprudent plans or unrealistic ambitions. 
+
+The Eclipse (lawful evil, Wisdom) represents self-doubt and loss of purpose. This card afflicts those with faith in the divine, as their talents can wane under this stress. It can also indicate a loss of way along a path. If misaligned, it can augur an unheralded ability coming to the fore or a concealed location revealed. 
+
+The Mute Hag (neutral evil, Wisdom) might be silent, but the eye she holds lets her see into the hearts of men. This hag invokes blood pacts and poisonous secrets, the kind that turn brother against brother and son against father. It is a card that performers loathe, as it leaves them stumbling over their words and songs. Misaligned, it indicates unshakable loyalty and lucidity of speech. 
+
+The Lost (chaotic evil, Wisdom) is the card of emptiness and loss of identity. The bodak shown is forever mad, lost in a world of lunatics, insane asylums, and mass killers. For those under its influence, the world makes no sense. It evokes times where all is babble, as when meeting someone who speaks only in another tongue. Misaligned, it can indicate clarity of mind under duress.
+
+21
+
+Charisma Cards
+The Empty Throne (lawful good, Charisma) has a sense of loss that is palpable. The ghost signifies that those who are gone will always be with us. They taught us important lessons, if only we choose to listen. This card can bring information from a far-off or ancient source. If misaligned, the ghosts of the past are restless, and might require effort to set at peace. 
+
+The Theater (neutral good, Charisma) is the card of true prophecy. The puppets act out a scene, just as the prophet acts out a scene in which she has no part. The prophet is the audience and the prophecy is the show. She has no influence on what she sees, and its importance is often not recognized until too late. If misaligned, the prophecy is just for show. 
+
+The Unicorn (chaotic good, Charisma) is a card that generously offers that which the subject seeks, just as the charger in the picture offers up its fruit. When misaligned, the card means betrayal, poisoning, or a false friend. 
+
+The Marriage (lawful neutral, Charisma) can be a union of people, ideas, kingdoms, or other distinct things. The progeny of the salamander and water weird shows that a union might bring forth new power from both parties, or it might be a ruinous joining of that which should never have been united. Once wedded, the two cannot be parted. This is the card of permanent change. 
+
+The Twin (neutral, Charisma) signals duality of purpose or identity. This doppelganger can also mean indecision, as a person or group wavers between very different options. It can also mean divided loyalties abound. The card makes a harrower wary, as it can also mean the entire spread has a hidden or reversed meaning. 
+
+The Courtesan (chaotic neutral, Charisma) is the card of political intrigue. Her mask embodies the social niceties that must be followed. If it slips, negotiations can take an unexpected turn. The card can also indicate a woman of power who shapes events. How she is treated decides the outcome of the situation. 
+
+The Tyrant (lawful evil, Charisma) indicates a ruler who is a blight upon those ruled. The dragon might indicate a monarch, overseer, or head of a household. Whoever this person is, he does harm to those over whom he holds sway, whether he realizes it or not. Misaligned, it might show a tyrant revealed or dethroned. 
+
+The Betrayal (neutral evil, Charisma) is selfishness incarnate. Envy twists the spirit and leads ultimately to devastation. It can also indicate a person whose loveliness hides an evil heart. Misaligned, the card means self-sacrifice or turning away from the material world and its temptations. 
+
+The Liar (chaotic evil, Charisma) is love at its most treacherous. This is not the love that moves mountains, this is the love that rips the heart in two and causes lovers to leap to their deaths. This lamia can mean obsession, unrequited passion, or doomed love. Misaligned, the card can indicate a new relationship beginning, although disguised as something much less beautiful.
+
+23
+
+a SamPle Harrowing
+Kyra has come to Riana for a reading. Riana calms herself as Kyra asks her whether her mother's plans to remarry are good ones. Riana thinks on what type of question this is, and decides that it best fits Charisma. She takes the nine Charisma cards out of the deck and carefully shuffles them for the choosing. She then spreads them out, facedown, in front of her. Kyra takes one and turns it over--it is The Empty Throne. Riana tells Kyra that this role card represents her place in relation to the question. Kyra is a link to the past, a connection to her mother's former husband--Kyra's father. He was lost in a war some years earlier, but his body was never found. With that done, Riana puts all of the Charisma cards back into the deck and shuffles. She then deals out nine cards, facedown, in the three-by-three pattern of the spread. Riana starts by turning over the three cards in the left column--those that represent the past. The cards revealed are, from top to bottom, The Owl, The Marriage, and The Cricket. Riana checks to see if there are any true matches in this column. There is one: appropriately enough, The Marriage. It is a lawful neutral card in the lawful neutral placement in the spread. Riana contemplates the meaning of this card to the question. Since Kyra's question is about a wedding, the card is especially meaningful. Riana tells Kyra that this card represents her mother's first marriage to her father. Although her father is gone,
+24
+
+that relationship has a powerful effect on the one her mother is now forming with her new fianc�. Since there are no other true matches, Riana moves on. She turns over the three cards in the middle column, representing the present. Top to bottom, she sees The Unicorn, The Dance, and The Tangled Briar. None of the cards are true matches or opposite matches. Thus, Riana looks for partial matches to read. She finds two. The Unicorn matches the good aspect of the top middle space, while The Tangled Briar matches the evil in the lower middle space. Riana looks at The Unicorn and tells Kyra that the marriage has the potential of bringing her mother great happiness. The Tangled Briar says that someone very important to the marriage has a secret that must come out, though. If it doesn't, the secret might eventually ruin the marriage. With that, Riana turns over the final three cards in the spread, those representing the future. Here she finds, top to bottom, The Tyrant, The Mute Hag, and The Keep. She finds no true matches, but there is one exact opposite: The Tyrant, a lawful evil card in the chaotic good placement. The Tyrant in this placement is misaligned, and indicates a tyrant overthrown. In this case, Riana believes it means that Kyra and her mother will likely be able to get past their grief for her father and make the most of the new marriage, but only if the poisonous secret indicated by The Tangled Briar in the present is cleared up. Kyra vows to find out this secret and release its poison. Riana smiles.
+25
+
+Pssst! Hey, over here, by the goat pen. Don't let that bat Riana find out, but I'll show you what a Harrow deck is really used for. The elders believe that anyone using the deck for anything other than a divination scam is a liar and a rake. Well, as they say, a goblin still walks on two legs. Now, I promise on my dear grandmother's pyre that if you learn to play Towers, you'll make a few silvers down the pike. That's because you seem exceptionally intelligent, so much so that I fear I might lose my whole purse to you in just one go. Like to try a game?
+--Savanj, Varisian stockhand
+
+TowerS: a gambling game
+Towers is a gambling game for 2�4 players using a Harrow deck. Each player must also have coins or other tokens with which to pay off debts incurred during the game.
+
+objeCT of The game
+Six great towers are arrayed before you. Each turn, you try to build on those towers. When you can't build, you incur debt to the other players. At some point, your debt comes due, and when it does, you want everyone else's debts to you to be far greater.
+26
+
+seTup
+Separate out the neutral cards--those with the symbol in the center. Lay out these six cards in a row across the table, each more than two full cards' width away from the others. These represent the foundations of towers: the Tower of Strength, the Tower of Dexterity, and so on. Shuffle the rest of the deck. Deal three cards to each player, face up in front of him--this is the player's cache. Players must sit along opposite sides of the row of towers, with their caches parallel to the row of towers. Place the deck to the side, face down.
+
+Start of a Sample game (not to scale)
+Player A
+
+The Foundations
+
+Player C
+27
+
+Player B
+
+Each player also has a balance--a pile of cards off to the side of the player. All players start with zero cards in their balance. Each player's balance is his debt to the other players in the game, and this debt must be paid by that player as he leaves the game. Whoever has the card that is alphabetically first among all the players' cache cards goes first.
+
+Taking a Turn
+On your turn, you may either flee or play any one of your cache cards onto one of the towers. If you flee, put all your cache cards into your balance, and immediately pay that balance in coins to each of the players still in the game. Turn your balance facedown to show you are out of the game. You do not get any more cards, nor incur any more debt. If you don't flee, you must play a card so that: 1. The card's title is toward you. 2. The card's symbol covers one of the eight alignment positions surrounding the foundation's symbol. 3. The card doesn't cover any symbols. 4. The card's symbol is next to the symbol of a card on the tower (not including the foundation), if any are on that foundation. That last rule means that if one or more cards have been placed on the tower, their symbols are all connected to each other. If the card you played matches the foundation's symbol, you may play another one of your cards on any tower. If that symbol matches, you can play your last card as well.
+28
+
+Any card you can't play goes into your balance. When you are done, draw three cards to replace your cache and pass the turn to the player to your left.
+
+Closing a Tower
+If you play a card in a way that makes it impossible to play another card on the tower, the tower is closed. Starting with the opponent on your left, give one card from the tower to each opponent still in the game, continuing around until all the cards from the tower (including the foundation) are distributed. Those cards go in the opponents' balances. (If you face only one remaining opponent, that opponent gets all the cards from that tower.)
+
+ending The game
+The game ends when no more cards can be played by anyone. All cards in players' caches go into their balances. Each player's balance is his debt to each of the remaining players. Unlike debts in fleeing, debts at the end of the game can cancel each other out, so if you owe a player nine coins, and that player owes you five coins, you owe that player four coins.
+
+example of play
+This example focuses on the Tower of Intelligence, although all other towers are in play as on page 27. The Foreign Trader, the
+29
+
+neutral Intelligence card, is the foundation in this example. Arye has The Big Sky, which is first alphabetically, so he starts. He plays The Rakshasa (1), allowable since it doesn't cover the foundation's symbol. Since it matches the foundation's book symbol, he can play another card, which he must place so its symbol is next to that of the Rakshasa. Arye plays The Joke (2), and since its symbol also matches the foundation, he can play his last card, The Big Sky (3). He draws three cards to replace his cache. Bree can only play one card on this tower. She plays The Midwife (4), and since it doesn't match the foundation's symbol, she's done. She places her two cards in her balance, and redraws. Cam successively plays The Inquisitor (5), The Hidden Truth (6), and The Theater (7). This closes the tower, as no one can play between The Theater and The Midwife. He puts four cards from this tower (including the foundation) into Arye's balance, and four into Bree's. Triumphant, he redraws. Arye flees, and pays seven coins to both Bree and Cam. Bree decides to stay in, so the fight over the other towers continues.
+
+2 3
+
+5
+
+1
+
+6
+
+4
+
+7
+
+30
+
+
