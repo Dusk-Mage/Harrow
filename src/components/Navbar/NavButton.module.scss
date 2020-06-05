@@ -1,0 +1,42 @@
+// components/NavButton.scss
+
+.NavButton {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	float: left;
+
+	cursor: pointer;
+
+	.Icon {
+		font-size: 10px;
+		width: 40px;
+	}
+
+	.Label {
+		font-size: 12px;
+		text-transform: capitalize;
+		margin-left: 1em;
+	}
+}
+.NavButtonRight {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	float: right;
+
+	cursor: pointer;
+
+	.Icon {
+		font-size: 10px;
+		width: 40px;
+	}
+
+	.Label {
+		font-size: 12px;
+		text-transform: capitalize;
+		margin-left: 1em;
+	}
+}

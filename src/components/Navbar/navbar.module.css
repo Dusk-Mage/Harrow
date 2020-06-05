@@ -1,0 +1,27 @@
+.navbar {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.nav{
+	/*background-color: black;*/
+	width: 100%;
+}
+.itemLeft{
+	color: chocolate;
+	float: left;
+	margin-right: 1rem;
+}
+.itemRight{
+	color: chocolate;
+	float: right;
+	margin-right: 1rem;
+}
+div.logo{
+	float: left !important;
+	width: 100%;
+}
+img.logo{
+	width: 200px;
+	margin-right: 1rem;
+}
