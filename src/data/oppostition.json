@@ -1,0 +1,11 @@
+[
+	{"Id":"LG", "Value":"CE"},
+	{"Id":"NG", "Value":"NE"},
+	{"Id":"CG", "Value":"LE"},
+	{"Id":"LN", "Value":"CN"},
+	{"Id":"CN", "Value":"LN"},
+	{"Id":"LE", "Value":"CG"},
+	{"Id":"NE", "Value":"NG"},
+	{"Id":"CE", "Value":"LG"}
+
+]
