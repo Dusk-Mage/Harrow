@@ -1,0 +1,8 @@
+[
+	{"Id":"Hammer", "Value":"Hammers", "Ability":"Strength"},
+	{"Id":"Key", "Value":"Keys", "Ability":"Dexterity"},
+	{"Id":"Shield", "Value":"Shields", "Ability":"Stamina"},
+	{"Id":"Book", "Value":"Books", "Ability":"Intelligence"},
+	{"Id":"Star", "Value":"Stars", "Ability":"Wisdom"},
+	{"Id":"Crown", "Value":"Crowns", "Ability":"Charisma"}
+]

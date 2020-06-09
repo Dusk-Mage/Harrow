@@ -3,13 +3,30 @@ import React, { Component } from 'react';
 //import HarrowLayout from './harrowing.module.css'
 import HarrowDeck from '../data/harrowDeck.json'
 import OppositionAlignment from '../data/oppostition.json'
+//import Suits from '../data/suits.json'
+
+
+class Child extends Component{
+  render() {
+    return (<div>I'm the child</div>);
+  }
+}
 
 class Harrow extends Component {
   constructor(props) {
     super(props);
+    this.Hammer = 0;
+    this.Key = 0;
+    this.Shield = 0;
+    this.Book = 0;
+    this.Star = 0;
+    this.Crown = 0;
     this.state = {character: ''};
     this.state = {opposition: ''};
     this.state = {cardsPulled: []};
+    this.state = {
+      childVisible: false
+    }
     
     this.handleCharacterChange = this.handleCharacterChange.bind(this);
     this.handleOppositionChange = this.handleOppositionChange.bind(this);
@@ -31,11 +48,8 @@ class Harrow extends Component {
   }
   
   readTheHarrow(){
-    //const cardsPulled = [];
     const min = 0;
     const max = 53;
-    
-    var Hammer = 0, Key = 0, Shield = 0, Book = 0, Star = 0, Crown = 0;
     
     for (let i = 0; i < 9; ){
       let cardPulled = Math.floor(min + Math.random() * (max - min + 1));//Draw the Card
@@ -52,29 +66,31 @@ class Harrow extends Component {
         }
         //Assign the luck bonus to the suit
         if(cardData.Suit === "Hammers"){//Todo: put these strings into variables
-          let val = Hammer + luckBonus;
-          Hammer = val;
+          this.Hammer = this.Hammer + luckBonus;
         }
         if(cardData.Suit === "Keys"){
-          Key = Key + luckBonus;
+          this.Key = this.Key + luckBonus;
         }
         if(cardData.Suit === "Shields"){
-          Shield = Shield + luckBonus;
+          this.Shield = this.Shield + luckBonus;
         }
         if(cardData.Suit === "Books"){
-          Book = Book + luckBonus;
+          this.Book = this.Book + luckBonus;
         }
         if(cardData.Suit === "Stars"){
-          Star = Star + luckBonus;
+          this.Star = this.Star + luckBonus;
         }
         if(cardData.Suit === "Crowns"){
-          Crown = Crown + luckBonus;
+          this.Crown = this.Crown + luckBonus;
         }
         i++;
       }
     }
-    console.log(this.state.cardsPulled);
-    console.log("Hammer",Hammer, "Key",Key, "Shield",Shield, "Book",Book, "Star",Star, "Crown",Crown);
+    //console.log(this.state.cardsPulled);
+    //console.log("Hammer",this.Hammer, "Key",this.Key, "Shield",this.Shield, "Book",this.Book, "Star",this.Star, "Crown",this.Crown);
+    //this.ShowResults = true;
+    this.setState({childVisible: !this.state.childVisible});
+    //this.setState({ state: this.state });
   }
 
   render(){
@@ -110,7 +126,12 @@ class Harrow extends Component {
           </div>
           <div><input type="submit" value="Submit" /></div>
         </form>
-        <section >
+        {
+          this.state.childVisible
+            ? <Child />
+            : null
+        }
+        <section>
           <div>
             <div>Card One</div>
             <div>Card Two</div>
@@ -122,7 +143,13 @@ class Harrow extends Component {
             <div>Card Eight</div>
             <div>Card Nine</div>
           </div>
-            <p>[Harrowing: {this.state.cardsPulled}]</p>
+            <p>[Harrowing:</p>
+            <p>Hammer (Str)	Attack rolls (ranged and melee): {this.Hammer}</p>
+            <p>Key (Dex)	Reflex saving throws: {this.Key}</p>
+            <p>Shield (Con)	Fortitude saving throws: {this.Shield}</p>
+            <p>Book (Int)	Skill checks: {this.Book}</p>
+            <p>Star (Wis)	Will saving throws: {this.Star}</p>
+            <p>Crown (Cha)	Any d20 roll: {this.Crown}</p>
         </section>
       </div>
     );
