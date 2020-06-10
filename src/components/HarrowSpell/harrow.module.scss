@@ -1,0 +1,29 @@
+/* Define standard variables and values for website */
+$bgcolor: black;
+$textcolor: darkblue;
+$fontsize: 18px;
+
+.spreadMatt{
+	border: 1px;
+	border-color: $bgcolor;
+	border-style: solid;
+	border-radius: 15px;
+	display: grid;
+	grid-template-columns: auto auto auto;/*repeat(auto-fit, minmax(40px, 1fr));*/
+	align-items: center;
+}
+.Card{
+	border: 1px;
+	border-color: $bgcolor;
+	border-style: solid;
+	border-radius: 15px;
+	text-align: center;
+}
+.results{
+	table{
+		border-collapse:collapse;
+	}
+	table, th, td{
+		border: 1px solid black;
+	}
+}
