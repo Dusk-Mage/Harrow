@@ -4,12 +4,17 @@ import React from "react";
 
 const navButtons = [
   {
-    label: "Cast Harrow",
+    label: "Lesser Harrowing",
+    path: "/Lesser-harrow",
+    icon: <img src="/icons/black-book.svg" alt="Cast Harrow link icon. Depicts a black and white closed book."/>
+  },
+  {
+    label: "Harrowing",
     path: "/Harrow",
     icon: <img src="/icons/black-book.svg" alt="Cast Harrow link icon. Depicts a black and white closed book."/>
   },
   {
-    label: "Cast Greater Harrow",
+    label: "Greater Harrowing",
     path: "/Greater-harrow",
     icon: <img src="/icons/secret-book.svg" alt="Cast Greater Harrow link icon. Depicts a black and white closed book with key hole on the cover."/>
   },
