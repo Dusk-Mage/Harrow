@@ -7,7 +7,8 @@ class HarrowSelector extends React.Component {
 		this.state = {
 			characterAlignment: 'LG',
 			neutralOpposition: 'LG',
-			isSubmitted: false
+			isSubmitted: false,
+			drawSize: props.Draw
 		};
 
 		this.onChange = this.onChange.bind(this);
@@ -55,7 +56,7 @@ class HarrowSelector extends React.Component {
 			</div>
 			<div><input type="submit" value="Submit" /></div>
 			</form>
-			{this.state.isSubmitted && <CastHarrow character={this.state.characterAlignment} opposition={this.state.neutralOpposition}/>}
+			{this.state.isSubmitted && <CastHarrow character={this.state.characterAlignment} opposition={this.state.neutralOpposition} cardsToDraw={this.state.drawSize}/>}
 		</div>
 		);
 	}

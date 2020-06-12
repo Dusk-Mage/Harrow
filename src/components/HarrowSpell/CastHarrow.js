@@ -1,6 +1,6 @@
 import React from 'react';
 import HarrowLayout from './harrow.module.scss'
-
+//TODO: Move styling up to the page level and fix the warning I am now generating.
 import {DrawXCards, Suits, CompairAlignment, GetOpposedAlignment} from '../../utils/deck.js'
 
 const CastHarrow = (props) =>{
@@ -13,7 +13,7 @@ const CastHarrow = (props) =>{
 		Star:0,
 		Crown:0
 	}
-	let cardCount = 9;
+	let cardCount = props.cardsToDraw;
 	let drawnCards = DrawXCards(cardCount);
 	let luckBonusDefault = 1;
 	let luckBonusGood = 2;
@@ -83,6 +83,18 @@ const CastHarrow = (props) =>{
 		," results.Book", results.Book
 		," results.Star", results.Star
 		," results.Crown", results.Crown);
+	
+	const items = [];
+	for(let i=0;i<props.cardsToDraw;i++){
+		items.push(
+			<div className={HarrowLayout.Card}>
+				<span>{drawnCards[i].Name}</span><br/>
+				<img src={drawnCards[i].Image} alt="" width={"150px"}/><br/>
+				<span>{drawnCards[i].Alignment} {drawnCards[i].Suit} / {drawnCards[i].Ability}</span>
+			</div>
+		)
+	}
+	
 	return(
 		<section>
 			<div className={HarrowLayout.results}>
@@ -128,51 +140,7 @@ const CastHarrow = (props) =>{
 				</table>
 			</div>
 			<div className={HarrowLayout.spreadMatt}>
-				<div className={HarrowLayout.Card}>
-					<span>{drawnCards[0].Name}</span><br/>
-					<img src={drawnCards[0].Image} alt="" width={"150px"}/><br/>
-					<span>{drawnCards[0].Alignment} {drawnCards[0].Suit} / {drawnCards[0].Ability}</span>
-				</div>
-				<div className={HarrowLayout.Card}>
-					<span>{drawnCards[1].Name}</span><br/>
-					<img src={drawnCards[1].Image} alt="" width={"150px"}/><br/>
-					<span>{drawnCards[1].Alignment} {drawnCards[1].Suit} / {drawnCards[1].Ability}</span>
-				</div>
-				<div className={HarrowLayout.Card}>
-					<span>{drawnCards[2].Name}</span><br/>
-					<img src={drawnCards[2].Image} alt="" width={"150px"}/><br/>
-					<span>{drawnCards[2].Alignment} {drawnCards[2].Suit} / {drawnCards[2].Ability}</span>
-				</div>
-				<div className={HarrowLayout.Card}>
-					<span>{drawnCards[3].Name}</span><br/>
-					<img src={drawnCards[3].Image} alt="" width={"150px"}/><br/>
-					<span>{drawnCards[3].Alignment} {drawnCards[3].Suit} / {drawnCards[3].Ability}</span>
-				</div>
-				<div className={HarrowLayout.Card}>
-					<span>{drawnCards[4].Name}</span><br/>
-					<img src={drawnCards[4].Image} alt="" width={"150px"}/><br/>
-					<span>{drawnCards[4].Alignment} {drawnCards[4].Suit} / {drawnCards[4].Ability}</span>
-				</div>
-				<div className={HarrowLayout.Card}>
-					<span>{drawnCards[5].Name}</span><br/>
-					<img src={drawnCards[5].Image} alt="" width={"150px"}/><br/>
-					<span>{drawnCards[5].Alignment} {drawnCards[5].Suit} / {drawnCards[5].Ability}</span>
-				</div>
-				<div className={HarrowLayout.Card}>
-					<span>{drawnCards[6].Name}</span><br/>
-					<img src={drawnCards[6].Image} alt="" width={"150px"}/><br/>
-					<span>{drawnCards[6].Alignment} {drawnCards[6].Suit} / {drawnCards[6].Ability}</span>
-				</div>
-				<div className={HarrowLayout.Card}>
-					<span>{drawnCards[7].Name}</span><br/>
-					<img src={drawnCards[7].Image} alt="" width={"150px"}/><br/>
-					<span>{drawnCards[7].Alignment} {drawnCards[7].Suit} / {drawnCards[7].Ability}</span>
-				</div>
-				<div className={HarrowLayout.Card}>
-					<span>{drawnCards[8].Name}</span><br/>
-					<img src={drawnCards[8].Image} alt="" width={"150px"}/><br/>
-					<span>{drawnCards[8].Alignment} {drawnCards[8].Suit} / {drawnCards[8].Ability}</span>
-				</div>
+				{items}
 			</div>
 				
 		</section>

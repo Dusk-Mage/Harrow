@@ -3,7 +3,7 @@ import HarrowSelector from '../components/HarrowSpell/HarrowSelector'
 function Harrow() {
   return (
     <div>
-		  <HarrowSelector></HarrowSelector>
+		  <HarrowSelector cardsToDraw="9"></HarrowSelector>
     </div>
   );
 }
