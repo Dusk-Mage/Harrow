@@ -1,32 +1,10 @@
 import React from 'react';
 import HarrowLayout from './harrow.module.scss'
-import HarrowDeck from '../../data/harrowDeck.json'
-import OppositionAlignment from '../../data/oppostition.json'
 
-  /*readTheHarrow(){
-    
-    }
-    //console.log(this.state.cardsPulled);
-    //console.log("Hammer",this.Hammer, "Key",this.Key, "Shield",this.Shield, "Book",this.Book, "Star",this.Star, "Crown",this.Crown);
-    //this.ShowResults = true;
-    this.setState({childVisible: !this.state.childVisible});
-    //this.setState({ state: this.state });
-  }*/
-
-function GetCardData(cardId){
-	let cardData = HarrowDeck.find(card => card.Id === cardId);//Get the Card Data
-	return cardData;
-}
+import {DrawXCards, Suits, CompairAlignment, GetOpposedAlignment} from '../../utils/deck.js'
 
 const CastHarrow = (props) =>{
-	let suits = {
-		hammers:"Hammers",
-		keys:"Keys",
-		shields:"Shields",
-		books:"Books",
-		stars:"Stars",
-		crowns:"Crown",
-	}
+	let neutralAlignment = "N";
 	let results = {
 		Hammer:0,
 		Key:0,
@@ -35,86 +13,118 @@ const CastHarrow = (props) =>{
 		Star:0,
 		Crown:0
 	}
-	let cardsPulled = [];
-	const min = 0;
-    const max = 53;
-    let drawnCards = [];
-    for (let i = 0; i < 9; ){
-		let cardPulled = Math.floor(min + Math.random() * (max - min + 1));//Draw the Card
-		if(!cardsPulled.includes(cardPulled)){ //Check to see if we already Drew this Card
-			cardsPulled.push(cardPulled);//Add the card to the draw stack
-			let cardData = GetCardData(cardPulled);// HarrowDeck.find(card => card.Id === cardPulled);//Get the Card Data
-			drawnCards.push(cardData);
-			let luckBonus = 1;
-			if(props.character === cardData.Alignment){
-				luckBonus = 2;
-			}else{
-				let cOp = OppositionAlignment.find(alignment => alignment.Id === cardData.Alignment);//Get the cards opposition alignment
-				if(props.character === props.opposition || cOp === props.character){ luckBonus = -1;}//Test against the Character
-			}
-			//Assign the luck bonus to the suit
-			if(cardData.Suit === suits.hammers){
+	let cardCount = 9;
+	let drawnCards = DrawXCards(cardCount);
+	let luckBonusDefault = 1;
+	let luckBonusGood = 2;
+	let luckBonusBad = -1;
+
+	//Get the players Opposition alignment
+	let playerOpposition = "";
+	if (props.character === neutralAlignment){
+		playerOpposition = props.opposition;
+	}
+	else{
+		playerOpposition = GetOpposedAlignment(props.character);
+	}
+	
+    for (let i = 0; i < drawnCards.length-1; i++){
+		//Default bonus
+		let luckBonus = 0;
+		let cardAlignment = drawnCards[i].Alignment;
+		//console.log("cardAlignment", cardAlignment);
+		let playerPossitiveMatch = CompairAlignment(props.character, cardAlignment);
+		//console.log("playerPossitiveMatch", playerPossitiveMatch, " props.character ", props.character);
+		let playerNegativeMatch = CompairAlignment(playerOpposition, cardAlignment);
+		//console.log("playerNegativeMatch", playerNegativeMatch, " playerOpposition ", playerOpposition);
+		//Player alignment and Card alignment match
+
+		if(playerPossitiveMatch){
+			luckBonus = luckBonusGood;
+		}
+		//Player alignment and oopsition match
+		if(playerNegativeMatch){
+			luckBonus = luckBonusBad;
+		}
+		if(!playerNegativeMatch && !playerPossitiveMatch){
+			luckBonus = luckBonusDefault;
+		}
+		console.log("Card:", i
+		," cardA:", cardAlignment
+		," +Match:", playerPossitiveMatch, " Player A:", props.character
+		," -Match:", playerNegativeMatch, " player O:", playerOpposition
+		," luckBonus: ", luckBonus
+		," Suit:", drawnCards[i].Suit);
+		switch (drawnCards[i].Suit){//Assign the luck bonus to the suit
+			default: break;
+			case Suits.hammers:
 				results.Hammer = results.Hammer + luckBonus;
-			}
-			if(cardData.Suit === suits.keys){
+				break;
+			case Suits.keys:
 				results.Key = results.Key + luckBonus;
-			}
-			if(cardData.Suit === suits.shields){
+				break;
+			case Suits.shields:
 				results.Shield = results.Shield + luckBonus;
-			}
-			if(cardData.Suit === suits.books){
+				break;
+			case Suits.books:
 				results.Book = results.Book + luckBonus;
-			}
-			if(cardData.Suit === suits.stars){
+				break;
+			case Suits.stars:
 				results.Star = results.Star + luckBonus;
-			}
-			if(cardData.Suit === suits.crowns){
+				break;
+			case Suits.crowns:
 				results.Crown = results.Crown + luckBonus;
-			}
-			i++;//We have a new non duplicate Card Increment the pull counter
-		}//End If
+				break;
+		}
 	}//End For
-	  
+	console.log("results.Hammer ", results.Hammer
+		," results.Key", results.Key
+		," results.Shield", results.Shield
+		," results.Book", results.Book
+		," results.Star", results.Star
+		," results.Crown", results.Crown);
 	return(
 		<section>
 			<div className={HarrowLayout.results}>
-				<table style={{"margin-bottom": "1rem", "margin-top": "1rem"}}>
-					<caption style={{"text-align": "left"}}>Harrowing Results:</caption>
-					<tr>
-						<th scope="col" style={{"text-align": "left"}}>Harrow Suit</th>
-						<th scope="col" style={{"text-align": "center"}}>Effect</th>
-						<th scope="col" style={{"text-align": "center"}}>Luck bonus</th>
-					</tr>
-					<tr>
-						<th scope="row" style={{"text-align": "left"}}>Hammers (Str)</th>
-						<td>Attack rolls (ranged and melee)</td>
-						<td style={{"text-align": "center"}}>{results.Hammer}</td>
-					</tr>
-					<tr>
-						<th scope="row" style={{"text-align": "left"}}>Keys (Dex)</th>
-						<td>Reflex saving throws</td>
-						<td style={{"text-align": "center"}}>{results.Key}</td>
-					</tr>
-					<tr>
-						<th scope="row" style={{"text-align": "left"}}>Shields (Con)</th>
-						<td>Fortitude saving throws</td>
-						<td style={{"text-align": "center"}}>{results.Shield}</td>
-					</tr>
-					<tr>
-						<th scope="row" style={{"text-align": "left"}}>Books (Int)</th>
-						<td>Skill checks</td>
-						<td style={{"text-align": "center"}}>{results.Book}</td>
-					</tr>
-					<tr>
-						<th scope="row" style={{"text-align": "left"}}>Stars (Wis)</th>
-						<td>Will saving throws</td>
-						<td style={{"text-align": "center"}}>{results.Star}</td>
-					</tr>
-					<tr>
-						<th scope="row" style={{"text-align": "left"}}>Crowns (Cha)</th>
-						<td>Any d20 roll</td>
-						<td style={{"text-align": "center"}}>{results.Crown}</td>
-					</tr>
+				<table style={{"marginBottom": "1rem", "marginTop": "1rem"}}>
+					<caption style={{"textAlign": "left"}}>Harrowing Results:</caption>
+					<tbody>
+						<tr>
+							<th scope="col" style={{"textAlign": "left"}}>Harrow Suit</th>
+							<th scope="col" style={{"textAlign": "center"}}>Effect</th>
+							<th scope="col" style={{"textAlign": "center"}}>Luck bonus</th>
+						</tr>
+						<tr>
+							<th scope="row" style={{"textAlign": "left"}}>Hammers (Str)</th>
+							<td>Attack rolls (ranged and melee)</td>
+							<td style={{"textAlign": "center"}}>{results.Hammer}</td>
+						</tr>
+						<tr>
+							<th scope="row" style={{"textAlign": "left"}}>Keys (Dex)</th>
+							<td>Reflex saving throws</td>
+							<td style={{"textAlign": "center"}}>{results.Key}</td>
+						</tr>
+						<tr>
+							<th scope="row" style={{"textAlign": "left"}}>Shields (Con)</th>
+							<td>Fortitude saving throws</td>
+							<td style={{"textAlign": "center"}}>{results.Shield}</td>
+						</tr>
+						<tr>
+							<th scope="row" style={{"textAlign": "left"}}>Books (Int)</th>
+							<td>Skill checks</td>
+							<td style={{"textAlign": "center"}}>{results.Book}</td>
+						</tr>
+						<tr>
+							<th scope="row" style={{"textAlign": "left"}}>Stars (Wis)</th>
+							<td>Will saving throws</td>
+							<td style={{"textAlign": "center"}}>{results.Star}</td>
+						</tr>
+						<tr>
+							<th scope="row" style={{"textAlign": "left"}}>Crowns (Cha)</th>
+							<td>Any d20 roll</td>
+							<td style={{"textAlign": "center"}}>{results.Crown}</td>
+						</tr>
+					</tbody>
 				</table>
 			</div>
 			<div className={HarrowLayout.spreadMatt}>
