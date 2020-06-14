@@ -28,7 +28,7 @@ const CastHarrow = (props) =>{
 		playerOpposition = GetOpposedAlignment(props.character);
 	}
 	
-    for (let i = 0; i < drawnCards.length-1; i++){
+    for (let i = 0; i < drawnCards.length; i++){
 		//Default bonus
 		let luckBonus = 0;
 		let cardAlignment = drawnCards[i].Alignment;
@@ -87,7 +87,7 @@ const CastHarrow = (props) =>{
 	const items = [];
 	for(let i=0;i<props.cardsToDraw;i++){
 		items.push(
-			<div className={HarrowLayout.Card}>
+			<div className={HarrowLayout.Card} key={i}>
 				<span>{drawnCards[i].Name}</span><br/>
 				<img src={drawnCards[i].Image} alt="" width={"150px"}/><br/>
 				<span>{drawnCards[i].Alignment} {drawnCards[i].Suit} / {drawnCards[i].Ability}</span>
