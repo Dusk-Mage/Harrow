@@ -1,6 +1,6 @@
 import React from 'react';
 import CastHarrow from './CastHarrow'
-
+//import {Box, Grommet} from 'grommet';
 class HarrowSelector extends React.Component {
 	constructor(props){
 		super(props);
@@ -25,39 +25,44 @@ class HarrowSelector extends React.Component {
 
 	render(){
 		return(
-		<div>
-			<form onSubmit={this.onSubmit}>
 			<div>
-				<label>
-				Character Alignment:
-				<select name="characterAlignment" value={this.state.characterAlignment} onChange={this.onChange}>
-					<option value="LG">Lawful Good</option>
-					<option value="NG">Neutral Good</option>
-					<option value="CG">Chaotic Good</option>
-					<option value="LN">Lawful Neutral</option>
-					<option value="N">Neutral</option>
-					<option value="CN">Chaotic Neutral</option>
-					<option value="LE">Lawful Evil</option>
-					<option value="NE">Neutral Evil</option>
-					<option value="CE">Chaotic Evil</option>
-				</select>
-				</label>
+				<form onSubmit={this.onSubmit}>
+					<div>
+						<label>
+							Character Alignment:
+							<select name="characterAlignment" value={this.state.characterAlignment} onChange={this.onChange}>
+								<option value="LG">Lawful Good</option>
+								<option value="NG">Neutral Good</option>
+								<option value="CG">Chaotic Good</option>
+								<option value="LN">Lawful Neutral</option>
+								<option value="N">Neutral</option>
+								<option value="CN">Chaotic Neutral</option>
+								<option value="LE">Lawful Evil</option>
+								<option value="NE">Neutral Evil</option>
+								<option value="CE">Chaotic Evil</option>
+							</select>
+						</label>
+					</div>
+					<div>
+						<label>
+							Neutral Opposition:
+							<select name="neutralOpposition" value={this.state.neutralOpposition} onChange={this.onChange}>
+								<option value="LG">Lawful Good</option>
+								<option value="CG">Chaotic Good</option>
+								<option value="LE">Lawful Evil</option>
+								<option value="CE">Chaotic Evil</option>
+							</select>
+						</label>
+					</div>
+					<div><input type="submit" value="Submit" /></div>
+				</form>
+				{this.state.isSubmitted && 
+					<CastHarrow 
+					character={this.state.characterAlignment} 
+					opposition={this.state.neutralOpposition} 
+					cardsToDraw={this.state.drawSize}/>
+				}
 			</div>
-			<div>
-				<label>
-				Neutral Opposition:
-				<select name="neutralOpposition" value={this.state.neutralOpposition} onChange={this.onChange}>
-					<option value="LG">Lawful Good</option>
-					<option value="CG">Chaotic Good</option>
-					<option value="LE">Lawful Evil</option>
-					<option value="CE">Chaotic Evil</option>
-				</select>
-				</label>
-			</div>
-			<div><input type="submit" value="Submit" /></div>
-			</form>
-			{this.state.isSubmitted && <CastHarrow character={this.state.characterAlignment} opposition={this.state.neutralOpposition} cardsToDraw={this.state.drawSize}/>}
-		</div>
 		);
 	}
 }

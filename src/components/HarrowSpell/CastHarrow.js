@@ -2,6 +2,7 @@ import React from 'react';
 import HarrowLayout from './harrow.module.scss'
 //TODO: Move styling up to the page level and fix the warning I am now generating.
 import {DrawXCards, Suits, CompairAlignment, GetOpposedAlignment} from '../../utils/deck.js'
+import {Box, Grommet} from 'grommet';
 
 const CastHarrow = (props) =>{
 	let neutralAlignment = "N";
@@ -96,7 +97,7 @@ const CastHarrow = (props) =>{
 	}
 	
 	return(
-		<section>
+		<Box direction='row'>
 			<div className={HarrowLayout.results}>
 				<table style={{"marginBottom": "1rem", "marginTop": "1rem"}}>
 					<caption style={{"textAlign": "left"}}>Harrowing Results:</caption>
@@ -143,7 +144,7 @@ const CastHarrow = (props) =>{
 				{items}
 			</div>
 				
-		</section>
+		</Box>
 	);
 }
 export default CastHarrow;
