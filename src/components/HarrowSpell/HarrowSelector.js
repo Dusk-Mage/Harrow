@@ -1,6 +1,7 @@
 import React from 'react';
-import CastHarrow from './CastHarrow'
-//import {Box, Grommet} from 'grommet';
+import CastHarrow from './CastHarrow';
+import 'fontsource-roboto';
+
 class HarrowSelector extends React.Component {
 	constructor(props){
 		super(props);

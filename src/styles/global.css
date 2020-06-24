@@ -1,0 +1,42 @@
+.footer{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-top: 1px solid;
+	text-align: center;
+	margin-top: 1rem;
+}
+
+.navbar {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.nav{
+	/*background-color: black;*/
+	width: 100%;
+	margin-bottom: 1rem;
+}
+.itemLeft{
+	color: chocolate;
+	float: left;
+	margin-right: 1rem;
+}
+.itemRight{
+	color: chocolate;
+	float: right;
+	margin-right: 1rem;
+}
+div.logo{
+	float: left !important;
+	width: 100%;
+}
+img.logo{
+	width: 200px;
+	margin-right: 1rem;
+}
+.header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}

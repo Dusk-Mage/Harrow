@@ -1,8 +1,8 @@
 import React from 'react';
-import HarrowLayout from './harrow.module.scss'
+import HarrowLayout from './harrow.module.scss';
 //TODO: Move styling up to the page level and fix the warning I am now generating.
-import {DrawXCards, Suits, CompairAlignment, GetOpposedAlignment} from '../../utils/deck.js'
-import {Box, Grommet} from 'grommet';
+import {DrawXCards, Suits, CompairAlignment, GetOpposedAlignment} from '../../utils/deck.js';
+import 'fontsource-roboto';
 
 const CastHarrow = (props) =>{
 	let neutralAlignment = "N";
@@ -97,7 +97,7 @@ const CastHarrow = (props) =>{
 	}
 	
 	return(
-		<Box direction='row'>
+		<div direction='row'>
 			<div className={HarrowLayout.results}>
 				<table style={{"marginBottom": "1rem", "marginTop": "1rem"}}>
 					<caption style={{"textAlign": "left"}}>Harrowing Results:</caption>
@@ -144,7 +144,7 @@ const CastHarrow = (props) =>{
 				{items}
 			</div>
 				
-		</Box>
+		</div>
 	);
 }
 export default CastHarrow;
