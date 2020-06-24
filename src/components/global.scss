@@ -1,0 +1,87 @@
+$h1BgColor: #522e2c;
+$h1TextColor: #cbc18f;
+$h2TextColor: #1B1007;
+$h3TitleBgColor: #999999;
+$defaultTextColor: whitesmoke;
+$defaultBackGroundColor: black;
+:root{
+	color: $defaultTextColor;
+	background-color: $defaultBackGroundColor;
+}
+
+h1{
+	font-size: 1.75em;
+	margin-bottom: 0.00em;
+	margin-top: 1.00em;
+	text-indent: 0.00em;
+	text-align: left;
+	font-weight: bold;
+	font-style: normal;	
+	font-variant: small-caps;
+
+}
+h1.title{
+	background-color: $h1BgColor; 
+	margin-bottom:10px;
+	margin-left:-2px;
+	color:  $h1TextColor;
+	padding:4px 9px 4px 9px;
+	height:26px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+h2{
+	font-size: 1.3em;
+	margin-bottom: 0.00em;
+	margin-top: 1.00em;
+	text-indent: 0.00em;
+	margin-right: 0.00em;
+	margin-left: 0.00em;
+	text-align: left;
+	font-weight: bold;
+	font-style: normal;	
+	font-variant: small-caps;
+}
+h2.title{
+	margin-bottom:10px;
+	margin-left:-2px;
+	color:  $h2TextColor;
+	padding:4px 9px 4px 9px;
+	line-height:16px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+h3{
+	font-size: 1.1em;
+	margin-bottom: 0.00em;
+	margin-top: 0.00em;
+	text-indent: 0.00em;
+	margin-right: 0.00em;
+	margin-left: 0.00em;
+	text-align: left;
+	font-weight: bold;
+	font-style: normal;	
+	font-variant: small-caps;
+}
+h3.title{
+	background-color: $h3TitleBgColor;
+	color: $defaultTextColor;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+h3.framing {
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+div.spellBlock{
+	padding-bottom: 1em;
+	border-bottom: 1px solid $defaultTextColor;
+}
