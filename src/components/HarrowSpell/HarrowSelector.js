@@ -16,7 +16,9 @@ class HarrowSelector extends React.Component {
 		this.onSubmit = this.onSubmit.bind(this);
 	}
 	onChange(e) {
+		e.preventDefault();  // Here we prevent the default browser behavior
 		this.setState({ [e.target.name]: e.target.value });  // Getting access to entered values
+		
 	}
 
 	onSubmit(e) {

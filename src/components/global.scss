@@ -4,10 +4,6 @@ $h2TextColor: #1B1007;
 $h3TitleBgColor: #999999;
 $defaultTextColor: whitesmoke;
 $defaultBackGroundColor: black;
-:root{
-	color: $defaultTextColor;
-	background-color: $defaultBackGroundColor;
-}
 
 h1{
 	font-size: 1.75em;
@@ -84,4 +80,8 @@ h3.framing {
 div.spellBlock{
 	padding-bottom: 1em;
 	border-bottom: 1px solid $defaultTextColor;
+}
+img.logo{
+	width: 200px;
+	margin-right: 1rem;
 }
