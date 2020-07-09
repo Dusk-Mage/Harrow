@@ -1,5 +1,4 @@
 import React from 'react';
-import HarrowLayout from './harrow.module.scss';
 //TODO: Move styling up to the page level and fix the warning I am now generating.
 import {DrawXCards, Suits, CompairAlignment, GetOpposedAlignment} from '../../utils/deck.js';
 
@@ -38,6 +37,22 @@ const CastHarrow = (props) =>{
 		playerOpposition = GetOpposedAlignment(props.character);
 	}
 	
+	const useStyles = makeStyles((theme) => ({
+		root: {
+		  flexGrow: 1,
+		},
+		paper: {
+		  padding: theme.spacing(2),
+		  textAlign: 'center',
+		  color: theme.palette.text.secondary,
+		},
+		table: {
+			minWidth: 650,
+		  },
+	  }));
+	  const classes = useStyles();
+
+
     for (let i = 0; i < drawnCards.length; i++){
 		//Default bonus
 		let luckBonus = 0;
@@ -105,50 +120,41 @@ const CastHarrow = (props) =>{
 	
 	const items = [];
 	for(let i=0;i<props.cardsToDraw;i++){
+		let widthOfCard = 4;
+		if(props.cardsToDraw === 4){
+			widthOfCard=6;
+		}
 		items.push(
-			<div className={HarrowLayout.Card} key={i}>
-				<span>{drawnCards[i].Name}</span><br/>
-				<img src={drawnCards[i].Image} alt="" width={"150px"}/><br/>
-				<span>{drawnCards[i].Alignment} {drawnCards[i].Suit} / {drawnCards[i].Ability}</span>
-			</div>
+			<Grid item xs={widthOfCard} key={i}>
+				<Paper className={classes.paper}>
+					<span>{drawnCards[i].Name}</span><br/>
+					<img src={drawnCards[i].Image} alt="" width={"150px"}/><br/>
+					<span>{drawnCards[i].Alignment} {drawnCards[i].Suit} / {drawnCards[i].Ability}</span>
+				</Paper>
+			</Grid>
 		)
 	}
-
-	const useStyles = makeStyles((theme) => ({
-		root: {
-		  flexGrow: 1,
-		},
-		paper: {
-		  padding: theme.spacing(2),
-		  textAlign: 'center',
-		  color: theme.palette.text.secondary,
-		},
-		table: {
-			minWidth: 650,
-		  },
-	  }));
-	  const classes = useStyles();
 
 	return(
 		<div className={classes.root}>
 			<Grid container spacing={1}>
-				<Grid item xs={12} sm={8}>
+				<Grid item xs={12} sm={12}>
 				<TableContainer component={Paper}>
 				<Table className={classes.table} size="small" aria-label="a dense table">
 					<TableHead>
 					<TableRow>
 						<TableCell>Harrow Suit</TableCell>
-						<TableCell align="right">Effect</TableCell>
-						<TableCell align="right">Penalty</TableCell>
-						<TableCell align="right">Luck bonus</TableCell>
+						<TableCell align="left">Effect</TableCell>
+						<TableCell align="left">Penalty</TableCell>
+						<TableCell align="left">Luck bonus</TableCell>
 					</TableRow>
 					</TableHead>
 					<TableBody>
 						<TableRow key={"Hammers (Str)"}>
 							<TableCell component="th" scope="row">Hammers (Str)</TableCell>
-							<TableCell align="right">Attack rolls (ranged and melee)</TableCell>
-							<TableCell align="right">{results.HammerPen}</TableCell>
-							<TableCell align="right">{results.Hammer.map((result,i) => [
+							<TableCell align="left">Attack rolls (ranged and melee)</TableCell>
+							<TableCell align="left">{results.HammerPen}</TableCell>
+							<TableCell align="left">{results.Hammer.map((result,i) => [
 								i > 0 && ", ",
 								<span key={i}>{result}</span>
 							])}
@@ -156,9 +162,9 @@ const CastHarrow = (props) =>{
 						</TableRow>
 						<TableRow key={"Keys (Dex)"}>
 							<TableCell component="th" scope="row">Keys (Dex)</TableCell>
-							<TableCell align="right">Reflex saving throws</TableCell>
-							<TableCell align="right">{results.KeyPen}</TableCell>
-							<TableCell align="right">{results.Key.map((result,i) => [
+							<TableCell align="left">Reflex saving throws</TableCell>
+							<TableCell align="left">{results.KeyPen}</TableCell>
+							<TableCell align="left">{results.Key.map((result,i) => [
 								i > 0 && ", ",
 								<span key={i}>{result}</span>
 							])}
@@ -166,9 +172,9 @@ const CastHarrow = (props) =>{
 						</TableRow>
 						<TableRow key={"Shields (Con)"}>
 							<TableCell component="th" scope="row">Shields (Con)</TableCell>
-							<TableCell align="right">Fortitude saving throws</TableCell>
-							<TableCell align="right">{results.ShieldPen}</TableCell>
-							<TableCell align="right">{results.Shield.map((result,i) => [
+							<TableCell align="left">Fortitude saving throws</TableCell>
+							<TableCell align="left">{results.ShieldPen}</TableCell>
+							<TableCell align="left">{results.Shield.map((result,i) => [
 								i > 0 && ", ",
 								<span key={i}>{result}</span>
 							])}
@@ -176,9 +182,9 @@ const CastHarrow = (props) =>{
 						</TableRow>
 						<TableRow key={"Books (Int)"}>
 							<TableCell component="th" scope="row">Books (Int)</TableCell>
-							<TableCell align="right">Skill checks</TableCell>
-							<TableCell align="right">{results.BookPen}</TableCell>
-							<TableCell align="right">{results.Book.map((result,i) => [
+							<TableCell align="left">Skill checks</TableCell>
+							<TableCell align="left">{results.BookPen}</TableCell>
+							<TableCell align="left">{results.Book.map((result,i) => [
 								i > 0 && ", ",
 								<span key={i}>{result}</span>
 							])}
@@ -186,9 +192,9 @@ const CastHarrow = (props) =>{
 						</TableRow>
 						<TableRow key={"Stars (Wis)"}>
 							<TableCell component="th" scope="row">Stars (Wis)</TableCell>
-							<TableCell align="right">Will saving throws</TableCell>
-							<TableCell align="right">{results.StarPen}</TableCell>
-							<TableCell align="right">{results.Star.map((result,i) => [
+							<TableCell align="left">Will saving throws</TableCell>
+							<TableCell align="left">{results.StarPen}</TableCell>
+							<TableCell align="left">{results.Star.map((result,i) => [
 								i > 0 && ", ",
 								<span key={i}>{result}</span>
 							])}
@@ -196,9 +202,9 @@ const CastHarrow = (props) =>{
 						</TableRow>
 						<TableRow key={"Crowns (Cha)"}>
 							<TableCell component="th" scope="row">Crowns (Cha)</TableCell>
-							<TableCell align="right">Any d20 roll</TableCell>
-							<TableCell align="right">{results.CrownPen}</TableCell>
-							<TableCell align="right">{results.Crown.map((result,i) => [
+							<TableCell align="left">Any d20 roll</TableCell>
+							<TableCell align="left">{results.CrownPen}</TableCell>
+							<TableCell align="left">{results.Crown.map((result,i) => [
 								i > 0 && ", ",
 								<span key={i}>{result}</span>
 							])}
@@ -208,11 +214,12 @@ const CastHarrow = (props) =>{
 				</Table>
 				</TableContainer>
 				</Grid>
+				<Grid item xs={12} sm={12}>
+					<Grid container spacing={1}>
+					{items}
+					</Grid>
+				</Grid>
 			</Grid>
-			<div className={HarrowLayout.spreadMatt}>
-				{items}
-			</div>
-				
 		</div>
 	);
 }
