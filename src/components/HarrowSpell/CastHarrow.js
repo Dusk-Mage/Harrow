@@ -1,5 +1,4 @@
 import React from 'react';
-//TODO: Move styling up to the page level and fix the warning I am now generating.
 import {DrawXCards, Suits, CompairAlignment, GetOpposedAlignment} from '../../utils/deck.js';
 
 import { makeStyles } from '@material-ui/core/styles';
@@ -50,8 +49,7 @@ const CastHarrow = (props) =>{
 			minWidth: 650,
 		  },
 	  }));
-	  const classes = useStyles();
-
+	const classes = useStyles();
 
     for (let i = 0; i < drawnCards.length; i++){
 		//Default bonus
@@ -157,7 +155,8 @@ const CastHarrow = (props) =>{
 							<TableCell align="left">{results.Hammer.map((result,i) => [
 								i > 0 && ", ",
 								<span key={i}>{result}</span>
-							])}
+							])//Places commas in all the right spots
+							}
 							</TableCell>
 						</TableRow>
 						<TableRow key={"Keys (Dex)"}>
@@ -167,7 +166,8 @@ const CastHarrow = (props) =>{
 							<TableCell align="left">{results.Key.map((result,i) => [
 								i > 0 && ", ",
 								<span key={i}>{result}</span>
-							])}
+							])//Places commas in all the right spots
+							}
 							</TableCell>
 						</TableRow>
 						<TableRow key={"Shields (Con)"}>
@@ -177,7 +177,8 @@ const CastHarrow = (props) =>{
 							<TableCell align="left">{results.Shield.map((result,i) => [
 								i > 0 && ", ",
 								<span key={i}>{result}</span>
-							])}
+							])//Places commas in all the right spots
+							}
 							</TableCell>
 						</TableRow>
 						<TableRow key={"Books (Int)"}>
@@ -187,7 +188,8 @@ const CastHarrow = (props) =>{
 							<TableCell align="left">{results.Book.map((result,i) => [
 								i > 0 && ", ",
 								<span key={i}>{result}</span>
-							])}
+							])//Places commas in all the right spots
+							}
 							</TableCell>
 						</TableRow>
 						<TableRow key={"Stars (Wis)"}>
@@ -197,7 +199,8 @@ const CastHarrow = (props) =>{
 							<TableCell align="left">{results.Star.map((result,i) => [
 								i > 0 && ", ",
 								<span key={i}>{result}</span>
-							])}
+							])//Places commas in all the right spots
+							}
 							</TableCell>
 						</TableRow>
 						<TableRow key={"Crowns (Cha)"}>
@@ -207,7 +210,8 @@ const CastHarrow = (props) =>{
 							<TableCell align="left">{results.Crown.map((result,i) => [
 								i > 0 && ", ",
 								<span key={i}>{result}</span>
-							])}
+							])//Places commas in all the right spots
+							}
 							</TableCell>
 						</TableRow>
 					</TableBody>
